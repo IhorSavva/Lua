@@ -1,0 +1,202 @@
+{
+    "metadata": {
+        "creator": "Corona Composer", 
+        "version": "0.6"
+    }, 
+    "objects": {
+        "id1": {
+            "alpha": 1, 
+            "bgColor": {
+                "b": 0.87843137254902, 
+                "g": 0.72156862745098, 
+                "r": 0.55294117647059
+            }, 
+            "children": [
+                "id2", 
+                "id3", 
+                "id4", 
+                "id5"
+            ], 
+            "drawMode": "normal", 
+            "gridH": 20, 
+            "gridSnapping": true, 
+            "gridW": 20, 
+            "isVisible": true, 
+            "name": "root", 
+            "rotation": 0, 
+            "sceneName": "scene1", 
+            "targetH": 480, 
+            "targetW": 320, 
+            "type": "group", 
+            "x": 0, 
+            "xGravity": 0, 
+            "xScale": 1, 
+            "y": 0, 
+            "yGravity": 9.8, 
+            "yScale": 1
+        }, 
+        "id2": {
+            "alpha": 1, 
+            "createdAtStart": true, 
+            "font": "native.systemFont", 
+            "id": "Title", 
+            "isVisible": true, 
+            "rotation": 0, 
+            "size": 22, 
+            "text": "", 
+            "textColor": {
+                "b": 1, 
+                "g": 1, 
+                "r": 1
+            }, 
+            "timeline": [
+                {
+                    "index": 1, 
+                    "params": {
+                        "alpha": 1, 
+                        "x": 150, 
+                        "y": 160
+                    }, 
+                    "position": 1, 
+                    "time": 0
+                }
+            ], 
+            "type": "text", 
+            "x": 150, 
+            "xLocked": false, 
+            "xScale": 1, 
+            "y": 160, 
+            "yLocked": false, 
+            "yScale": 1
+        }, 
+        "id3": {
+            "alpha": 1, 
+            "angularDamping": 0, 
+            "bodyType": "dynamic", 
+            "bounce": 0.2, 
+            "createdAtStart": true, 
+            "density": 1, 
+            "fillColor": {
+                "a": 1, 
+                "b": 0.74117647058824, 
+                "g": 0.53725490196078, 
+                "r": 0.1843137254902
+            }, 
+            "friction": 0.3, 
+            "hasJoint": false, 
+            "id": "NewGameBtn", 
+            "imageFile": "ui_assets/symbol_rectangle.png", 
+            "isAwake": true, 
+            "isBodyActive": true, 
+            "isBullet": false, 
+            "isFixedRotation": false, 
+            "isSensor": false, 
+            "isSleepingAllowed": true, 
+            "isVisible": true, 
+            "linearDamping": 0, 
+            "physicsEnabled": false, 
+            "radius": 0, 
+            "rectHeight": 50, 
+            "rectWidth": 145, 
+            "rotation": 0, 
+            "strokeColor": {
+                "a": 255, 
+                "b": 128, 
+                "g": 128, 
+                "r": 128
+            }, 
+            "strokeWidth": 0, 
+            "timeline": [
+                {
+                    "index": 1, 
+                    "params": {
+                        "alpha": 1, 
+                        "x": 225, 
+                        "y": 301
+                    }, 
+                    "position": 1, 
+                    "time": 0
+                }
+            ], 
+            "type": "rect", 
+            "x": 225, 
+            "xLocked": false, 
+            "xScale": 1.2413792610168, 
+            "y": 301, 
+            "yLocked": false, 
+            "yScale": 1
+        }, 
+        "id4": {
+            "alpha": 1, 
+            "createdAtStart": true, 
+            "font": "native.systemFont", 
+            "id": "NewGameText", 
+            "isVisible": true, 
+            "rotation": 0, 
+            "size": 22, 
+            "text": "Начать игру", 
+            "textColor": {
+                "b": 1, 
+                "g": 1, 
+                "r": 1
+            }, 
+            "timeline": [
+                {
+                    "index": 1, 
+                    "params": {
+                        "alpha": 1, 
+                        "x": 228, 
+                        "y": 301
+                    }, 
+                    "position": 1, 
+                    "time": 0
+                }
+            ], 
+            "type": "text", 
+            "x": 228, 
+            "xLocked": false, 
+            "xScale": 1, 
+            "y": 301, 
+            "yLocked": false, 
+            "yScale": 1
+        }, 
+        "id5": {
+            "alpha": 1, 
+            "createdAtStart": true, 
+            "font": "native.systemFont", 
+            "id": "PazleText", 
+            "isVisible": true, 
+            "rotation": 0, 
+            "size": 65, 
+            "text": "Пазлы", 
+            "textColor": {
+                "b": 0.78039215686275, 
+                "g": 0.54117647058824, 
+                "r": 0.13333333333333
+            }, 
+            "timeline": [
+                {
+                    "index": 1, 
+                    "params": {
+                        "alpha": 1, 
+                        "x": 50, 
+                        "y": 20
+                    }, 
+                    "position": 1, 
+                    "time": 0
+                }
+            ], 
+            "type": "text", 
+            "x": 50, 
+            "xLocked": false, 
+            "xScale": 1, 
+            "y": 20, 
+            "yLocked": false, 
+            "yScale": 1
+        }
+    }, 
+    "root": {
+        "numObjects": 5, 
+        "object": "id1"
+    }
+}

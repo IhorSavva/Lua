@@ -1,0 +1,43 @@
+{
+    "metadata": {
+        "creator": "Corona Composer", 
+        "version": "0.6"
+    }, 
+    "objects": {
+        "id1": {
+            "alpha": 1, 
+            "bgColor": {
+                "b": 0.83137254901961, 
+                "g": 0.64313725490196, 
+                "r": 0.48235294117647
+            }, 
+            "children": [
+                 
+                
+            ], 
+            "drawMode": "normal", 
+            "gridH": 20, 
+            "gridSnapping": true, 
+            "gridW": 20, 
+            "isVisible": true, 
+            "name": "root", 
+            "rotation": 0, 
+            "sceneName": "scene1", 
+            "targetH": 480, 
+            "targetW": 320, 
+            "type": "group", 
+            "x": 0, 
+            "xGravity": 0, 
+            "xScale": 1, 
+            "y": 0, 
+            "yGravity": 9.8, 
+            "yScale": 1
+        }, 
+  
+        
+    }, 
+    "root": {
+        "numObjects": 5, 
+        "object": "id1"
+    }
+}
